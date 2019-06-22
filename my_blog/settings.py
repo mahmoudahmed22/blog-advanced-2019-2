@@ -26,7 +26,7 @@ SECRET_KEY = '&g(sa$3c%ls#ru9l$k5&eu-b_%+(ptn87qpu=7ucll5kn!5$ns'
 DEBUG = True
 
 ALLOWED_HOSTS = ['mahmoudfoli.herokuapp.com']
-#
+#'mahmoudfoli.herokuapp.com'
 
 # Application definition
 
