@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&g(sa$3c%ls#ru9l$k5&eu-b_%+(ptn87qpu=7ucll5kn!5$ns'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['mahmoudfoli.herokuapp.com']
 #'mahmoudfoli.herokuapp.com'
@@ -120,7 +120,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
 STATIC_URL = '/static/'
 
 # If you want to make Static folder for all project you can use this code.
