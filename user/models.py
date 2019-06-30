@@ -27,3 +27,14 @@ def create_profile(sender, **kwarg):
 
 
 post_save.connect(create_profile, sender=User)
+# class Student(models.Model):
+#     FRESHMAN = 'FR'
+#     SOPHOMORE = 'SO'
+#     JUNIOR = 'JR'
+#     SENIOR = 'SR'
+#     YEAR_IN_SCHOOL_CHOICES = [
+#         (FRESHMAN, 'Freshman'),
+#         (SOPHOMORE, 'Sophomore'),
+#         (JUNIOR, 'Junior'),
+#         (SENIOR, 'Senior'),
+#     ]
